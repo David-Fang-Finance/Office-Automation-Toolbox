@@ -1,0 +1,123 @@
+# =============================================
+# 工具箱配置参数文件
+# =============================================
+# 请复制此文件为 config.json 并填写实际值
+# =============================================
+
+# =============================================
+# 1. SAP 配置
+# =============================================
+[SAP]
+# SAP GUI 路径
+sap_path = ""
+
+# SAP 登录信息
+client = ""
+user = ""
+password = ""
+language = ""
+
+# SAP 连接名称
+connection_name = ""
+
+# 用户ID（FBL1N查询用）
+user_id = ""
+
+# F-03 默认值
+f03_default_account = ""
+f03_default_fixed_account = ""
+f03_default_date = ""
+
+# 公司代码
+default_company_code = ""
+
+# 供应商代码
+default_vendor_code = ""
+
+# 货币
+default_currency = ""
+
+
+# =============================================
+# 2. 百度 OCR API 配置
+# =============================================
+[BAIDU_OCR]
+api_key = ""
+secret_key = ""
+
+
+# =============================================
+# 3. Google Gemini API 配置
+# =============================================
+[GEMINI]
+api_key = ""
+model_name = ""
+thinking_budget = 0
+
+
+# =============================================
+# 4. 文件路径配置
+# =============================================
+[PATHS]
+pdf_folder = ""
+excel_output = ""
+f03_excel_path = ""
+export_folder = ""
+fbl1n_prefix = ""
+ap_report_prefix = ""
+
+
+# =============================================
+# 5. 邮件配置
+# =============================================
+[EMAIL]
+smtp_server = ""
+smtp_port = 0
+smtp_use_ssl = false
+username = ""
+password = ""
+default_sender = ""
+reply_to = ""
+
+
+# =============================================
+# 6. 数据库配置
+# =============================================
+[DATABASE]
+access_db_path = ""
+
+
+# =============================================
+# 7. GRIR邮件处理配置
+# =============================================
+[GRIR]
+source_dir = ""
+temp_dir = ""
+final_dir = ""
+receiver_file = ""
+vendor_email_file = ""
+file_keyword = ""
+
+# 公司邮箱映射（根据实际公司代码添加）
+[COMPANY_EMAILS]
+# 格式: 公司代码 = 邮箱地址
+# 示例:
+# E201 = ""
+# E202 = ""
+
+# 统一查询邮箱
+payable_queries_email = ""
+
+# 默认发件人
+default_sender_name = ""
+default_sender_email = ""
+
+
+# =============================================
+# 8. 发票提取提示词配置
+# =============================================
+[INVOICE_PROMPT_PDF]
+prompt = ""
+
+[INVOICE_PROMPT_IMAGE]
+prompt = ""

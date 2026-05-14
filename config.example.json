@@ -1,0 +1,27 @@
+{
+    "sap_path": "",
+    "client": "",
+    "user": "",
+    "password": "",
+    "language": "",
+    "connection_name": "",
+    "user_id": "",
+    "f03_automation": {
+        "excel_path": "",
+        "account_code": "",
+        "company_code": "",
+        "currency": "",
+        "start_row": 2,
+        "end_row": 6
+    },
+    "fbl1n": {
+        "vendor": "",
+        "company": "",
+        "export_path": "",
+        "filename_prefix": ""
+    },
+    "sap_f03_custom": {
+        "last_excel_path": "",
+        "start_row": 2
+    }
+}
